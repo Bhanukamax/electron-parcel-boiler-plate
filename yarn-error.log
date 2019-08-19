@@ -1,0 +1,40 @@
+Arguments: 
+  /home/bhanuka/.nvm/versions/node/v12.6.0/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/bhanuka/.nvm/versions/node/v12.6.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/bhanuka/demo/bmax-parcel-elect/package.json: Unexpected token } in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "bmax-parcel-elect",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+  
+    "start": "parcel src/index.html"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
