@@ -1,6 +1,13 @@
 const root = document.querySelector("#root")
-const el = document.createElement('p')
 
-el.innerHTML = 'what a text this is the again and again'
+const ele = document.createElement('div')
 
-root.append(el)
+ele.innerHTML = `
+<h1>This  build from parcel</h1>
+<p>guid url:</p>
+<code>
+https://medium.com/@yogeshkumarr/production-ready-electron-app-using-react-and-parcel-web-bundler-74dcda63f148
+</code>
+`
+
+root.append(ele)
